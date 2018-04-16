@@ -76,23 +76,53 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h1> Hristo Georgiev </h1>
-                    <h2><a href="resume.pdf" aria-label="Hristo's resume">Resume</a></h2>
-                    <h2><a href="mailto:contact@hristo-georgiev.com" aria-label="Send an e-mail to Hristo">Contact</a></h2>
+                    <h2><a href="resume.pdf" aria-label="Hristo's resume" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Homepage',
+                        eventAction: 'Click',
+                        eventLabel: 'Resume'
+                      });">Resume</a></h2>
+                    <h2><a href="mailto:contact@hristo-georgiev.com" aria-label="Send an e-mail to Hristo" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Homepage',
+                        eventAction: 'Click',
+                        eventLabel: 'E-mail'
+                      });">Contact</a></h2>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <a class="share-icon" aria-label="Link to Hristo's Linkedin account." target="_blank" href="https://www.linkedin.com/in/hggeorgiev/">
+                    <a class="share-icon" aria-label="Link to Hristo's Linkedin account." target="_blank" href="https://www.linkedin.com/in/hggeorgiev/" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Homepage',
+                        eventAction: 'Click',
+                        eventLabel: 'LinkedIn Account'
+                      });">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a class="share-icon" aria-label="Link to Hristo's Github account." target="_blank" href="https://github.com/hggeorgiev">
+                    <a class="share-icon" aria-label="Link to Hristo's Github account." target="_blank" href="https://github.com/hggeorgiev" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Homepage',
+                        eventAction: 'Click',
+                        eventLabel: 'Github Account'
+                      });">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a class="share-icon" aria-label="Link to Hristo's Twitter account." target="_blank" href="https://twitter.com/hggeorgievcom">
+                    <a class="share-icon" aria-label="Link to Hristo's Twitter account." target="_blank" href="https://twitter.com/hggeorgievcom" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Homepage',
+                        eventAction: 'Click',
+                        eventLabel: 'Twitter account'
+                      });">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a class="share-icon" aria-label="Link to Hristo's StackOverflow account." target="_blank" href="https://stackoverflow.com/users/2808883/hristo-georgiev">
+                    <a class="share-icon" aria-label="Link to Hristo's StackOverflow account." target="_blank" href="https://stackoverflow.com/users/2808883/hristo-georgiev" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Homepage',
+                        eventAction: 'Click',
+                        eventLabel: 'StackOverflow account'
+                      });">
                         <i class="fab fa-stack-overflow"></i>
                     </a>
            
