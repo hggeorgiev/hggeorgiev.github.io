@@ -36,7 +36,7 @@ body {
 #content {
     margin-top: 15px;
     float: left;
-    width: 500px;
+    max-width: 500px;
 }
 
 #content p.notop {
@@ -54,4 +54,10 @@ body {
 #content h3 {
     font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
     margin: 0;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
