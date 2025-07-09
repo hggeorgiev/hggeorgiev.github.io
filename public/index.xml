@@ -2,16 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hristo Georgiev</title>
-    <link>http://localhost:1313/</link>
+    <link>https://www.hristo-georgiev.com/</link>
     <description>Recent content on Hristo Georgiev</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.hristo-georgiev.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Career Update</title>
+      <link>https://www.hristo-georgiev.com/career-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.hristo-georgiev.com/career-update/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m in the process of resigning from my software engineering job and from September I&amp;rsquo;ll commit myself full-time to pursuing BSc. in Mathematics at ETH Zürich. I&amp;rsquo;ve been working on reaching this level of education for the last six years and I am grateful to be given a chance to pursue it further.&lt;/p&gt;&#xA;&lt;p&gt;In August 2024, after taking two months off from full-time software engineering work, I passed all examination sessions of the Schweizerische Maturitätsprüfung. I was tested, through both written and oral exams, on the entire curriculum studied in a Swiss Gymnasium: Physics, Chemistry, Biology, Mathematics (base level), Applied Mathematics and Physics (advanced level, DE: Schwerpunktfach Physik und Anwendungen der Mathematik), German (first language), English (advanced level), Italian (base level), Geography, History, and Visual Arts. Additionally, I presented my Diploma Thesis (&lt;a href=&#34;./assets/Maturaarbeit.pdf&#34; &gt;Maturaarbeit&lt;/a&gt;), which explored various approaches to compressing nucleotide sequences. I successfully passed all subjects on my first attempt, with the exception of Visual Arts, and I am now qualified to start my studies at ETH Zürich.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Nice to meet you</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://www.hristo-georgiev.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://www.hristo-georgiev.com/about/</guid>
       <description>&lt;p&gt;I live in Zürich and study Mathematics at ETH Zürich. I grew up in Yambol, Bulgaria and moved to Switzerland after selling &lt;a href=&#34;https://web.archive.org/web/20220810095238/https://www.aubg.edu/news/aubg-student-company-centroida-wins-ja-bulgarias-best-startup-award-2016-1047&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centroida&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
